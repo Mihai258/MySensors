@@ -70,6 +70,7 @@
 // Set this node's subscribe and publish topic prefix
 #define MY_MQTT_PUBLISH_TOPIC_PREFIX "mygateway1-out"
 #define MY_MQTT_SUBSCRIBE_TOPIC_PREFIX "mygateway1-in"
+#define MY_MQTT_RETAINED true
 
 // Set MQTT client id
 #define MY_MQTT_CLIENT_ID "mysensors-1"
